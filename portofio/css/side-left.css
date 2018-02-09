@@ -1,0 +1,52 @@
+#side-left{
+ background: linear-gradient(black, rgba(0, 0, 0, 0.32));
+ left: -100%;
+   
+}
+#close-side-left{
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    
+}
+
+#technology{
+    font-size: 15rem;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skills-cointainer{
+   background-color: mediumaquamarine;
+    width: 70%;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row-container{
+       width: 95%;
+    height: 10vh;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+ 
+  
+}
+
+
+.icon{
+    color: white;
+    font-size: 20rem;    
+}
