@@ -14,11 +14,12 @@
     font-size: 15rem;
     text-align: center;
     margin-top: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
 }
 
 .skills-cointainer{
-   background-color: mediumaquamarine;
+
     width: 70%;
     height: 40vh;
     position: absolute;
@@ -35,8 +36,8 @@
 .row-container{
        width: 95%;
     height: 10vh;
-    margin: 10px;
-    background: rgba(255, 255, 255, 0.25);
+    margin: 100px;
+/*    background: rgba(255, 255, 255, 0.25);*/
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -48,5 +49,48 @@
 
 .icon{
     color: white;
-    font-size: 20rem;    
+    font-size: 20rem;
+    width: 120px;
+    height:120px;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition-duration: 1s;
+    
+}
+.icon:hover{
+    filter: grayscale(0);
+    
+}
+
+#html{
+    background-image: url(../img/html.png)
+}
+
+#css{
+    background-image: url(../img/css.png)
+}
+#js{
+    background-image: url(../img/js-ima.png);
+    transform: scale(0.8);
+}
+#git{
+    background-image: url(../img/git.png)
+}
+#jquery{
+    background-image: url(../img/jquery.png)
+}
+#wordpress{
+    background-image: url(../img/wordpress.png)
+}
+#bootstrap{
+    background-image: url(../img/bootstrap1.png);
+    transform: scale(1.4);
+        
+}
+#rwd{
+    background-image: url(../img/rwd-icon.png)
+}
+#gulp{
+    background-image: url(../img/gulp-logo.png)
 }

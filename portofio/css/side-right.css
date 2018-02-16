@@ -1,5 +1,5 @@
 #side-right{
- background-color: rgba(152, 140, 140, 0.74);
+  background: linear-gradient(black, rgba(0, 0, 0, 0.1));
  right: -100%;
     text-align: center;
 
@@ -9,7 +9,8 @@
     font-size: 15rem;
    
     margin-top: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
     position: absolute;
     margin-left: 0;
     margin-right: 0;

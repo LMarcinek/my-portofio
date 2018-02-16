@@ -1,5 +1,5 @@
 #side-top{
-    background: linear-gradient(black, rgba(0, 0, 0, 0.52));
+    background: linear-gradient(black, rgba(0, 0, 0, 0.72));
     top: -100vh;
     
 }
@@ -14,7 +14,8 @@
     font-size: 1500%;
     text-align: center;
     margin-top: 20px;
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Dosis', sans-serif;
+    font-weight: 400;
     display: block;
 }
 
@@ -50,9 +51,11 @@
 .icon-contact a p
 {
     font-size: 6rem;
+     font-family: 'Dosis', sans-serif;
 }
 #mail{
     font-size: 5.5rem;
+     font-family: 'Dosis', sans-serif;;
 }
 #close-side-top{
     font-size: 25rem;
